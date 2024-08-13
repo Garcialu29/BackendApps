@@ -1,0 +1,32 @@
+{
+  "name": "app_traexnode",
+  "version": "1.0.0",
+  "description": "Backend de la app app_traex",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fluttter",
+    "app_traex",
+    "nodejs"
+  ],
+  "author": "isaias",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mailer": "^0.6.6",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.3",
+    "nodemailer": "^6.9.10",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
+  }
+}
